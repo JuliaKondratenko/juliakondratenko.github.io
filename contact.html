@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="ru"><!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Портфолио</title>
+	<meta name="description"  content="Professional Creative Template" />
+	<meta name="author" content="IG Design">
+	<meta name="keywords"  content="ig design, website, design, html5, css3, jquery, creative, clean, animated, portfolio, blog, one-page, multi-page, corporate, business," />
+
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="theme-color" content="#212121"/>
+    <meta name="msapplication-navbutton-color" content="#212121"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#212121"/>
+
+	<!-- Web Fonts
+	================================================== -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i" rel="stylesheet"/>
+
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/colors/color.css"/>
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+
+
+</head>
+<body>
+
+	<div class="loader">
+		<div class="loader__figure"></div>
+	</div>
+
+	<div class="main">
+
+	<!-- Nav and Logo
+	================================================== -->
+
+		<header class="cd-header">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 ml-3 mr-md-3">
+						<div class="logo-wrap">
+							<a href="index.html"><img src="img/logo.png" alt=""></a>
+						</div>
+						<div class="nav-but-wrap">
+							<div class="menu-icon">
+								<span class="menu-icon__line menu-icon__line-left"></span>
+								<span class="menu-icon__line"></span>
+								<span class="menu-icon__line menu-icon__line-right"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</header>
+
+	<div class="nav">
+		<div class="nav__content">
+			<ul class="nav__list">
+				<li class="nav__list-item"><a href="index.html">Портфолио</a></li>
+				<li class="nav__list-item"><a href="about.html">О себе</a></li>
+				<li class="nav__list-item active-nav"><a href="contact.html">Контакты</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<div class="section half-height over-hide">
+		<div class="hero-center-wrap z-bigger">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 mt-5 mt-md-0">
+						<div class="row">
+							<div class="col-lg-6 con-det">
+								<h6>Email:</h6>
+								<p>juliet.kondratenko@gmail.com</p>
+								<!-- <p>Днепр, Украина</p> -->
+							</div>
+							<div class="col-lg-6 mt-4 mt-lg-0 con-det">
+								<h6>Tel:</h6>
+								<p>+38(068)422-79-76</p>
+								<p>Telegram / Viber</p>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section padding-bottom-big">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="sec-titile">
+						<div class="subtitle">
+							 Напишите мне
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 mt-5 mt-md-0">
+					<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
+						<div class="row">
+							<div class="col-lg-6">
+								<label for="name">
+									<span class="error" id="err-name">Пожалуйста, введите ваше имя</span>
+								</label>
+								<input name="name" id="name" type="text"   placeholder="Ваше имя: *"/>
+							</div>
+							<div class="col-lg-6 mt-4 mt-lg-0">
+								<label for="email">
+									<span class="error" id="err-email">Пожалуйста, введите ваш e-mail</span>
+									<span class="error" id="err-emailvld">Пожалуйста, введите корректно e-mail</span>
+								</label>
+								<input name="email" id="email" type="text"  placeholder="E-Mail: *"/>
+							</div>
+							<div class="col-lg-12 mt-4">
+								<label for="message"></label>
+								<textarea name="message" id="message" placeholder="Введите сообщение"></textarea>
+							</div>
+							<div class="col-lg-12 mt-4">
+								<div id="button-con"><button class="send_message js-tilt" id="send" data-lang="en" data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>Отправить</span></button></div>
+							</div>
+							<div class="col-lg-12 mt-4">
+								<div class="error" id="err-form"><span>There was a problem validating the form please check!</span></div>
+								<div class="error" id="err-timedout">The connection to the server timed out!</div>
+								<div class="error" id="err-state"></div>
+								<div id="ajaxsuccess">Successfully sent!!</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- <div class="section">
+		<div id="cd-google-map">
+			<div id="google-container"></div>
+			<div id="cd-zoom-in"></div>
+			<div id="cd-zoom-out"></div>
+		</div>
+	</div> -->
+
+
+	<div class="section padding-top-big padding-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 footer" data-scroll-reveal="enter bottom move 50px over 0.5s after 0.2s">
+					<p>2018 © Kondratenko Julia</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="social-fixed-left">
+		<a target="_blank" href="https://www.facebook.com/juliet.kondratenko">facebook</a>
+		<a target="_blank" href="https://www.instagram.com/juliettabing/">instagram</a>
+		<a target="_blank" href="https://t.me/JuliaBing">telegram</a>
+		<!-- <a target="_blank" href="#">github</a> -->
+	</div>
+
+	<div class="scroll-to-top"><img alt="" src="img/arrow-up.svg"></div>
+
+	</div>
+
+	<!-- JAVASCRIPT
+    ================================================== -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/contact.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvpnlHRidMIU374bKM5-sx8ruc01OvDjI"></script>
+	<!-- ==================
+		Go to this link to activated your google map API KEY https://developers.google.com/maps/documentation/javascript/tutorial#api_key
+		your key replace in script link for google map after .../maps/api/js?key=HERE_YOUR_API_KEY
+		coordinates for map you can change in google-map.js file
+	================== -->
+	<script src="js/google-map.js"></script>
+	<script src="js/custom.js"></script>
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
