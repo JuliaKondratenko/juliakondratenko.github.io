@@ -1,3 +1,5 @@
+
+
 (function($) { "use strict";
 
 	function Selector_Cache() {
@@ -56,7 +58,6 @@
 						}
 						else {
 							$('#err-state').slideDown('slow');
-							$("#err-state").html('An error occurred: ' + error + '');
 						}
 					},
 					success: function() {
