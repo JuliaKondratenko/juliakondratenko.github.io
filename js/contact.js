@@ -24,10 +24,10 @@
 
 				var error = false; // we will set this true if the form isn't valid
 
-				var name = $('input#name').val(); // get the value of the input field
-				if(name == "" || name == " ") {
-					$('#err-name').fadeIn('slow'); // show the error message
-					error = true; // change the error state to true
+				// var name = $('input#name').val(); // get the value of the input field
+				// if(name == "" || name == " ") {
+				// 	$('#err-name').fadeIn('slow'); // show the error message
+					// error = true; // change the error state to true
 				}
 
 				var email_compare = /^([a-z0-9_.-]+)@([da-z.-]+).([a-z.]{2,6})$/; // Syntax to compare against input
