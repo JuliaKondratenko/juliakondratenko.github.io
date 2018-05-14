@@ -576,7 +576,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 	position: fixed;
 	bottom: 30px;
 	left: 30px;
-	display: none;
+	/*display: none;*/
 	z-index: 94;
 	-webkit-writing-mode: vertical-lr;
 	writing-mode: vertical-lr;
