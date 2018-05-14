@@ -50,29 +50,29 @@ mark,
 #ajax-form input:active,
 .subscribe input:active,
 .subscribe input:focus {
-	border-bottom:1px solid #6dc234;
+	border-bottom:1px solid #000;
 }
 .pag-3d-line:hover,
 .pag-3d-work-wrap a.mPS2id-highlight .pag-3d-line,
 .form-control:active,
 .form-control:focus{
-	border-color: #6dc234;
+	border-color: #000;
 }
 figure.vimeo a:before, figure.youtube a:before {
-	border-left: 10px solid #6dc234;
+	border-left: 10px solid #000;
 }
 figure.vimeo:hover a:after, figure.youtube:hover a:after {
-	background:#6dc234;
+	background:#000;
 }
 .blockquote{
-	border-left: 0.4rem solid #6dc234;
+	border-left: 0.4rem solid #000;
 }
 .blockquote-reverse{
-	border-right: 0.4rem solid #6dc234;
+	border-right: 0.4rem soli000;
 }
 ::selection {
-	background-color: #6dc234;
+	background-color: #000;
 }
 ::-moz-selection {
-	background-color: #6dc234;
+	background-color: #000;
 }
