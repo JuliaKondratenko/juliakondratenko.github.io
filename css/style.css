@@ -2,6 +2,8 @@
 /* #Primary
 ================================================== */
 
+
+
 body{
 	font-family: 'Roboto';
 	font-weight:400;
@@ -157,6 +159,16 @@ mark{
     opacity: 0;
     background-color: transparent;
   }
+}
+
+.contact-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0;
+    margin-right: 0;
+   /* margin-left: 10%;
+    margin-top: 15%;*/
 }
 
 /* #Background Animated Lines
@@ -3660,4 +3672,15 @@ a:hover{
          url('../fonts/AvenirNext-Bold.svg') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+.skills{
+	color: #fff;
+	background-color: grey;
+	padding: 10px 15px;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	margin: 5px 5px;
+	float: left;
+	
 }

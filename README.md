@@ -1,1 +1,0 @@
-# juliakondratenko.github.io
